@@ -11,18 +11,14 @@ Para comenzar a trabajar en este proyecto, siga los siguientes pasos:
 
 Clone este repositorio en su máquina local utilizando el siguiente comando en la terminal:
 bash
-Copy code
-git clone https://github.com/TU_USUARIO/LaboratorioReact.git
+git clone https://github.com/Cebans/React.git
 Navegue a la carpeta del proyecto usando el siguiente comando:
 bash
-Copy code
 cd LaboratorioReact
 Instale las dependencias del proyecto ejecutando el siguiente comando:
-Copy code
 npm install
 Ejecute el servidor de desarrollo de React usando el siguiente comando:
 sql
-Copy code
 npm start
 Abra su navegador y vaya a la dirección http://localhost:3000 para ver la aplicación en acción.
 Estructura del proyecto
