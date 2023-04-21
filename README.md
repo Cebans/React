@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+Laboratorio de React
+Este es un proyecto de laboratorio de React para demostrar cómo construir una tabla de datos en una aplicación de React. La tabla de datos muestra información sobre personas, incluyendo su nombre, edad y profesión. El proyecto utiliza React y CSS para crear la tabla de datos y está diseñado para ser utilizado como una introducción al desarrollo de aplicaciones web en React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Requisitos
+Para ejecutar este proyecto en su máquina local, debe tener instalados los siguientes programas:
 
-## Available Scripts
+Node.js
+npm
+Configuración
+Para comenzar a trabajar en este proyecto, siga los siguientes pasos:
 
-In the project directory, you can run:
+Clone este repositorio en su máquina local utilizando el siguiente comando en la terminal:
+bash
+Copy code
+git clone https://github.com/TU_USUARIO/LaboratorioReact.git
+Navegue a la carpeta del proyecto usando el siguiente comando:
+bash
+Copy code
+cd LaboratorioReact
+Instale las dependencias del proyecto ejecutando el siguiente comando:
+Copy code
+npm install
+Ejecute el servidor de desarrollo de React usando el siguiente comando:
+sql
+Copy code
+npm start
+Abra su navegador y vaya a la dirección http://localhost:3000 para ver la aplicación en acción.
+Estructura del proyecto
+El proyecto consta de los siguientes archivos y carpetas:
 
-### `npm start`
+src: carpeta que contiene el código fuente de la aplicación.
+index.js: archivo de punto de entrada de la aplicación.
+App.js: archivo que define el componente principal de la aplicación.
+App.css: archivo que contiene los estilos CSS utilizados en la aplicación.
+Cómo utilizar la aplicación
+Una vez que haya iniciado la aplicación, verá una tabla de datos con información sobre personas. Puede utilizar la tabla de datos como un ejemplo para aprender cómo crear y renderizar componentes en React. También puede experimentar con la tabla de datos cambiando la información que se muestra en ella.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contribución
+Este proyecto es de código abierto y las contribuciones son bienvenidas. Si encuentra errores o problemas, o tiene ideas para mejorar la aplicación, no dude en crear un problema o enviar una solicitud de extracción.
